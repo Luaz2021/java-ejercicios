@@ -13,9 +13,9 @@ public class ArrayEjercicio3 {
         resultado = dni % 23;
 
         // Usamos String.format para asegurar que el DNI se imprima con 8 dígitos,
-        // Al ingresar un 0 a la izquierda no se mostraba en el resultao final
+        // Al ingresar un 0 a la izquierda no se mostraba en el resultado final
         String dniFormateado = String.format("%08d", dni);
-
+        
 
         System.out.println("EL DNI ES "+ dniFormateado + codigosDNI[resultado]);
 

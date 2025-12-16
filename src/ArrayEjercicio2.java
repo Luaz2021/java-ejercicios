@@ -21,6 +21,15 @@ public class ArrayEjercicio2 {
         for (int i=0;i<N;i++) {
             alturas[i] = validarAltura(sc, "Numero" + (i+1)+":");
             sumaAlturas += alturas[i];//Calculamos la suma total de todo los datos ingresados
+            
+            /*/ Pedimos al usuario que ingrese la altura
+            System.out.print("Numero " + (i + 1) + ": ");
+    
+            // Leemos directamente el valor doble del teclado y lo asignamos al array
+            alturas[i] = sc.nextDouble(); 
+    
+            // Calculamos la suma total de todos los datos ingresados
+            sumaAlturas += alturas[i];*/
         }
 
         //Buscamos la media 

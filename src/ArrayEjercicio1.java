@@ -17,7 +17,13 @@ public class ArrayEjercicio1 {
         //Recorremos el Array para rellenar todo los vacios dentro de las 10 posiciones
         for (int i=0;i<numeros.length;i++){ 
             //Llamamos al metodo validarNumero para ingresar los valores por teclado
+            
             numeros[i] = validarNumero(sc, "Numero" + (i+1)+":");
+
+            /*/ Pedimos al usuario que ingrese el valor
+            System.out.print("Numero " + (i + 1) + ": ");
+            // Asignamos directamente la entrada del Scanner al array
+            numeros[i] = sc.nextInt();*/
         }
 
         //Volvemos a recorrer el Array para validar los positivos,negativos y ceros.
